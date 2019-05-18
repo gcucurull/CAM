@@ -29,7 +29,7 @@ if model == 'alexnet':
 	last_conv = 'conv7'
 	crop_size = 227
 elif model == 'googlenet':
-	net_weights = 'models/imagenet_googleletCAM_train_iter_120000.caffemodel'
+	net_weights = 'models/imagenet_googlenetCAM_train_iter_120000.caffemodel'
 	net_model = 'models/deploy_googlenetCAM.prototxt'
 	out_layer = 'CAM_fc'
 	crop_size = 224
